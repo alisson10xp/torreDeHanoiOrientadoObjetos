@@ -16,6 +16,7 @@ class BigBang extends JComponent implements ActionListener{
   BigBang(World world) {
     this(1000, world);  
   }
+  @Override
   public void paintComponent(Graphics g) {
     world.draw(g);  
   }
